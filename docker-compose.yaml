@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  app:
+    image: js-async-await-example:0.0.1
+    build:
+      context: .
+    volumes:
+      - ./src:/opt
